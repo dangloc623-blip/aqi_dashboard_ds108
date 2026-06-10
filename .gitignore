@@ -1,0 +1,13 @@
+# Bỏ qua các file tạm dịch của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bỏ qua các file ẩn của hệ điều hành (macOS/Windows)
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Bỏ qua file biến môi trường (nếu sau này có dùng để chứa mật khẩu)
+.env

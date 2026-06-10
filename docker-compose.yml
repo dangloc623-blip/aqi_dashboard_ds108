@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  streamlit-dashboard:
+    image: python:3.9-slim
+    container_name: aq_dashboard
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    command: >
+      bash -c "pip install --no-cache-dir -r requirements.txt && 
+      streamlit run dashboard_app_improved.py --server.port=8501 --server.address=0.0.0.0"
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
