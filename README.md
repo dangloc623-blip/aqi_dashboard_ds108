@@ -36,6 +36,8 @@ Hệ thống được thiết kế để chạy độc lập không phụ thuộ
 
 Yêu cầu hệ thống: Đã cài đặt Docker Engine / Docker Desktop.
 
+Sau khi tải về máy, tất cả các file trên đều để cùng 1 thư mục.
+
 Khởi chạy Docker Desktop/ Docker Engine.
 
 Các bước khởi chạy:
@@ -59,6 +61,6 @@ Người dùng chỉ cần làm mới trang (F5) để xem kết quả cập nh�
 Để dừng hệ thống và giải phóng tài nguyên network/container, sử dụng lệnh:
 
 ```bash
-  docker-compose down
+     docker-compose down
 ```
 Developed by Đặng Đức Lộc _ Nguyễn Trung Kiên - University of Information Technology (UIT).
