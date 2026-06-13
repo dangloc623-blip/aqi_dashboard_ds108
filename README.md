@@ -49,7 +49,7 @@ Khởi tạo và chạy container ngầm bằng lệnh:
 ```bash
      docker-compose up -d
 ```
-Truy cập Dashboard qua trình duyệt tại: http://localhost:8501 (có thể tốn 1 chút thời gian nến chạy lần đậu ạ :3, mọi người gáng chờ xíu nhen ^^)
+Truy cập Dashboard qua trình duyệt tại: http://localhost:8501 (có thể tốn 1 chút thời gian nếu chạy lần đậu ạ :3, mọi người gáng chờ xíu nhen ^^)
 
 ## 🛠️ Môi trường Phát triển (Development)
 Hệ thống sử dụng Docker Volumes (- .:/app) để map trực tiếp source code và dataset từ host machine vào container.
